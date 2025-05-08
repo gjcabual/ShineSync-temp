@@ -1,100 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShineSync - On-Demand Car Wash</title>
-    <link rel="shortcut icon" href="/logo6.png" type="image/x-icon">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: white;
-            color: #333;
-        }
-        header {
-            background-color: #1bc7f7;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        header img {
-            max-width: 150px;
-            margin-bottom: 10px;
-            filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3)); /* Add shadow effect */
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        h2 {
-            color: #1bc7f7;
-        }
-        .features {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-        .feature {
-            background: white;
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            border: 1px solid #1bc7f7;
-        }
-        .cta {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .cta button {
-            padding: 10px 20px;
-            background-color: #1bc7f7;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .cta button:hover {
-            background-color: #17a2d5;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>Welcome to ShineSync!</h1>
-    <p>Your on-demand car wash service.</p>
-</header>
-
-<div class="container">
-    <h2>Why Choose ShineSync?</h2>
-    <div class="features">
-        <div class="feature">
-            <h3>Convenience & Time-Saving</h3>
-            <p>Book a wash whenever it suits you—no more waiting in lines!</p>
-        </div>
-        <div class="feature">
-            <h3>Easy Booking</h3>
-            <p>Manage your appointments effortlessly through our app.</p>
-        </div>
-        <div class="feature">
-            <h3>Quality Service</h3>
-            <p>Our professional team ensures your car receives the best care.</p>
-        </div>
-        <div class="feature">
-            <h3>Secure Transactions</h3>
-            <p>Enjoy cashless payments for a hassle-free experience.</p>
-        </div>
-    </div>
-
-    <div class="cta">
-        <h2>Ready to Shine?</h2>
-        <button onclick="window.location.href='https://yourwebsite.com'">Book Now</button>
-    </div>
-</div>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShineSync App Landing Page</title>
+    <link rel="shortcut icon" href="/src/images/favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
