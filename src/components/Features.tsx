@@ -80,14 +80,14 @@ const Features: React.FC = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="transform translate-y-8">
               <img 
-                src="/src/images/3.png" 
+                src="/3.png" 
                 alt="ShineSync App Screenshot 1" 
                 className="rounded-2xl shadow-xl border-4 border-gray-800"
               />
             </div>
             <div>
               <img 
-                src="/src/images/9.png" 
+                src="/9.png" 
                 alt="ShineSync App Screenshot 2" 
                 className="rounded-2xl shadow-xl border-4 border-gray-800"
               />

@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
             <div className="absolute w-64 h-64 sm:w-72 sm:h-72 md:w-96 md:h-96 bg-gradient-to-r from-blue-500/30 to-purple-600/30 rounded-full filter blur-xl"></div>
             <div className="relative w-64 sm:w-72 md:w-80 h-auto shadow-xl rounded-3xl overflow-hidden border-4 border-gray-800 transform hover:scale-105 transition-transform duration-300">
               <img 
-                src='/src/images/logo4.png'
+                src='/logo4.png'
                 alt="ShineSync App" 
                 className="w-full h-auto rounded-3xl"
               />
